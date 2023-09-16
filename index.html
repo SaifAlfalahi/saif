@@ -1,0 +1,296 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Personal Page</title>
+  </head>
+
+  <body>
+    <div class="header">
+      <header> Saif Al-Falahi </header>
+    </div>
+    <div>
+      <div class="tab">
+        <div>
+          <img src="https://i.postimg.cc/PxHZpyD9/IMG-5559.jpg" alt="My Picture" width="200" height="230" style="float:centre" class="rounded-corners">
+          <p class="myname">
+            Saif Al-Falahi
+          </p>
+        </div>
+        <button class="tablinks" onclick="openCity(event, 'Skills')">Skills</button>
+        <button class="tablinks" onclick="openCity(event, 'Education')">Education</button>
+        <button class="tablinks" onclick="openCity(event, 'Objectives')">Objectives</button>
+        <button class="tablinks" onclick="openCity(event, 'Projects')">Projects</button>
+        <button class="tablinks" onclick="openCity(event, 'More info')">More info</button>
+
+        <button class="tablinks" onclick="openCity(event, 'Contact')">Contact</button>
+
+      </div>
+
+      <div id="Skills" class="tabcontent">
+        <p class="info">
+          <h1><br>Skills</h1>
+          <ul class="info">
+            <li>Programming languages</li>
+            <li>Microsoft Office proficiency</li>
+            <li>User interface optimization</li>
+            <li>Front-end & back-end web development</li>
+            <li>Problem-Solving</li>
+            <li>Analytical and Critical Thinking</li>
+            <li>Decision-Making</li>
+            <li>Dependable and Responsible</li>
+          </ul>
+        </p>
+      </div>
+
+      <div id="Education" class="tabcontent">
+        <h1><br>Education</h1>
+        <p class="info">
+          09/2007 - 06/2016 | Sharjah Public School
+          <br>
+          British Curriculum
+          <br>
+          <br>
+          09/2016 - 06/2020 | Al Shola School
+          <br>
+          Ministry of Education Curriculum
+          <br>
+          <br>
+          01/2021 - Current | University of Sharjah
+          <br>
+          Bachelor of Science - Computer Science
+
+        </p>
+      </div>
+
+      <div id="Objectives" class="tabcontent">
+        <h1><br>Objectives</h1>
+        <p class="info">Highly motivated and Productive Student with strong motivation <br>to procure work experience in Computer Science fields.<br> Diligent to manage assigned tasks and meet expected goals.<br> Willing to engage in advance training to meet objectives.</p>
+      </div>
+
+      <div id="Projects" class="tabcontent">
+        <h1><br>Projects</h1>
+        <p class="info">
+          <ul class="info">
+            <li>
+              <b>Online System for Global Support Solutions (GSS)</b><br>
+              Designed and implemented the GSS relational database to manage<br> industrial computer applications, fostering interdisciplinary project <br>teams and efficient project management.<br><br>
+            </li>
+            <li><b>Custom Programming Language Using racket</b><br>
+              Developed a user-friendly programming language with a unique<br> grammar, that supports conditional execution of arithmetic<br> operations using distinctive symbols.<br><br>
+            </li>
+            <li><b>E-advisor for Undergraduate Students</b><br>
+              Collaborated on the creation of an E-advisor platform, providing <br>24/7 access to academic information and recommendations,<br> benefiting both students and advisors with improved efficiency<br> and support.
+            </li>
+          </ul>
+        </p>
+
+
+      </div>
+      <div id="More info" class="tabcontent">
+        <h1><br>More info</h1>
+        <p class="info">
+          <ul class="info">
+            <li> Programming languages:
+              <ol class="info">
+                <li> High level languages:
+                  <ul class="info">
+                    <li>C++</li>
+                    <li>Racket</li>
+                    <li>Java</li>
+                    
+                  </ul>
+                 <li> MarkUp languages:
+                  <ul class="info">
+                    <li>XML</li>
+                    <li>HTML</li>                 
+                  </ul>
+                </li>
+                
+                 <li> Scripting languages:
+                  <ul class="info">
+                    <li>Python</li>
+                    <li>PHP</li>   
+                    <li>JavaScript</li>                 
+
+                  </ul>
+                </li>
+
+                <li> Low level languages:
+                  <ul class="info">
+                    <li>Assembly</li>
+                  </ul>
+                </li>
+                </li>
+              </ol>
+            </li>
+
+
+            <li> Spoken languages
+              <ul class="info">
+                <li>Arabic </li>
+                <li>English </li>
+                <li>Japanese </li>
+              </ul>
+
+            </li>
+          </ul>
+
+        </p>
+        </div>
+        <div id="Contact" class="tabcontent">
+          <h1><br>Contact</h1>
+          <p class="info"> 
+            <ul class="info">
+              <li>Email: U20200974@sharjah.ac.ae</li>
+              <li>Mobile Phone: +971-56-969-0596 </li>
+              <li>LinkedIn: <a href="https://www.linkedin.com/in/saif-al-falahi-b8a084244/">Saif Al-Falahi</a></li>
+              <li>Address: Abushagara, Sharjah</li>
+              <li>Instagram: yxmi_69</li>
+              
+            </ul>
+            
+          
+          </p>
+
+
+        </div>
+      
+
+
+      <div class="square"></div>
+    </div>
+  </body>
+
+</html>
+
+<style>
+* { box-sizing: border-box; }
+
+/* Style the tab */
+.tab {
+  float: left;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  width: 200px;
+  height: 680px;
+  resize: none;
+}
+
+body {
+      zoom: 110%; /* Set the initial zoom level to 110% */
+    }
+
+.header {
+  padding: 20px;
+  background: #252525;
+  color: white;
+  font-size: 30px;
+  width: 100%; /* Header will now stretch with the container */
+}
+
+.info
+{
+  color: #252525;
+  font-size: 24px;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+img.rounded-corners {
+  border-radius: 50%;
+
+}
+
+ 
+.myname{
+    text-align: center;
+    font-size: 27px;
+
+}
+
+
+
+
+.square {
+  height: 670px;
+  width: 700px;
+  background-color: #f8f4f4;
+  border: 1px solid #ccc;
+  position: absolute;
+  left: 220px; /* Adjust the left position as needed */
+  top: 95px; /* Adjust the top position as needed */
+  border-radius: 30px;
+  z-index: 1;
+  }
+  
+  /* Style the tab content */
+.tabcontent {
+  float: left;
+  padding: 0px 20px;
+  border: 1px solid #ccc;
+  width: 70%;
+  border-left: none;
+  height: 2000px;
+  position: relative;
+  z-index: 2;
+  display: none;
+}
+
+.tabcontent h3 {
+  margin-left: 30px; /* Add left margin to the headings */
+}
+
+.tabcontent p {
+  margin-left: 40px; /* Add left margin to the paragraphs */
+}
+</style>
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+
+  // Hide all tab contents
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  // Remove "active" class from all tab buttons
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+
+  // Show the current tab content
+  var currentTab = document.getElementById(cityName);
+  currentTab.style.display = "block";
+
+  // Add "active" class to the clicked tab button
+  evt.currentTarget.className += " active";
+}
+</script>
